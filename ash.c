@@ -114,7 +114,7 @@ void find_klam(my_t *h)
 }
 
 /**
- * fork_cmd - forks cmd
+ * fork_klam - forks cmd
  * @h: struct
  */
 void fork_klam(my_t *h)

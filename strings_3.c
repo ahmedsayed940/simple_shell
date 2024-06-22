@@ -77,7 +77,8 @@ char **_strtow2(char *s, char d)
 	if (s == NULL || s[0] == 0)
 		return (NULL);
 	for (i = 0; s[i] != '\0'; i++)
-		if ((s[i] != d && s[i + 1] == d) || (s[i] != d && !s[i + 1]) || s[i + 1] == d)
+		if ((s[i] != d && s[i + 1] == d) ||
+				(s[i] != d && !s[i + 1]) || s[i + 1] == d)
 			num++;
 	if (num == 0)
 		return (NULL);
